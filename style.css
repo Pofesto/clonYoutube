@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: black; }
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center; }
+  .header_container .header_container__logo {
+    width: 95px;
+    height: 38px;
+    background-image: url("./assets/logo_youtube.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .header_container .header_container__busquedaYperfil {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px; }
+    .header_container .header_container__busquedaYperfil .header_container__busqueda {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url("./assets/lupa.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .header_container .header_container__busquedaYperfil .header_container__perfil {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url("./assets/perfil.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 14px; }
+
+.categorias_container {
+  border-top: 0.1px solid gray;
+  border-bottom: 0.1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap; }
+  .categorias_container .categorias_container__separador {
+    width: 1px;
+    height: 80%;
+    margin-right: 10px; }
+  .categorias_container .categorias_container__boton {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: #272727;
+    color: white;
+    margin-right: 10px; }
+    .categorias_container .categorias_container__boton .categorias_container__boton_brujula {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url("./assets/brujula.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: middle; }
+
+.categorias_container::-webkit-scrollbar {
+  height: 0px; }
+
+.main_container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.header_container {
+  width: 100vw;
+  height: 8.25vh;
+  background-color: #0f0f0f; }
+
+.categorias_container {
+  width: 100vw;
+  height: 8.25vh;
+  background-color: #0f0f0f; }
+
+.main_container {
+  width: 100vw;
+  height: 75vh;
+  background-color: blueviolet; }
+
+.navegador_container {
+  width: 100vw;
+  height: 8.5vh;
+  background-color: blue; }
+
+/*# sourceMappingURL=style.css.map */
