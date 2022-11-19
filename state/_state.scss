@@ -1,3 +1,5 @@
+//MediaQ que cambia el tamaño, y los margenes de cada
+//miniatura para que se adapte a pantallas más anchas
 @media (min-width: 587px) {
     .main_container {
         .main_container__miniatura {
@@ -7,6 +9,8 @@
         }
     }
 }
+//MediaQ que cambia el tamaño de cada miniatura para que
+//se adapte a pantallas más anchas
 @media (min-width: 874px) {
     .main_container {
         .main_container__miniatura {
@@ -14,6 +18,8 @@
         }
     }
 }
+//MediaQ que cambia el tamaño de cada miniatura para que
+//se adapte a pantallas más anchas
 @media (min-width: 1200px) {
     .main_container {
         .main_container__miniatura {

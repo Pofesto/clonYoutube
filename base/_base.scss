@@ -1,11 +1,15 @@
+//configuraciones iniciales para no pelear con ellas
+//durante el desarrollo.
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+//Definimos el tamaño del REM a 10px
 html {
     font-size: 62.5%;
 }
+//color de fondo general para todo el cuerpo de página.
 body {
     background-color: black;
 }

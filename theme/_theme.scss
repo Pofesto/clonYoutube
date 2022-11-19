@@ -1,0 +1,119 @@
+//----------HEADER----------
+//color de fondo del header
+.header_container {
+    background-color: #0f0f0f;
+    //configuraciones del fondo del logo de Youtube
+    .header_container__logo {
+        background-image: url("./assets/logo_youtube.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .header_container__busquedaYperfil {
+        //configuraciones de la lupa de la derecha
+        .header_container__busqueda {
+            background-image: url("./assets/lupa.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        //configuraciones de la foto de perfil de la derecha
+        .header_container__perfil {
+            background-image: url("./assets/perfil.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 14px;
+        }
+    }
+}
+//----------CATEGORIAS----------
+//Color de fondo, y los bordes superiores e inferiores
+.categorias_container {
+    background-color: #0f0f0f;
+    border-top: 0.1px solid gray;
+    border-bottom: 0.1px solid gray;
+    .categorias_container__separador {
+    }
+    //botones de las categorias
+    .categorias_container__boton {
+        background-color: #272727;
+        color: white;
+        //la brujula del botón "explorar"
+        .categorias_container__boton_brujula {
+            background-image: url("./assets/brujula.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+//----------MAIN----------
+//color del main donde van las miniaturas
+.main_container {
+    background-color: #0f0f0f;
+    .main_container__miniatura {
+        .main_container__miniatura_imagen{
+            img {
+            }
+            //estilos del cuadradito que muestra los minutos
+            //de duración del video
+            .minutos {
+                background-color: rgba($color: #000000, $alpha: 0.7);
+                font-size: 1.1rem;
+                color: white;
+                font-weight: 500;
+                border-radius: 4px;
+            }
+        }
+        .main_container__miniatura_titulo{ 
+            .logo_titulo {
+                //el circulo del perfil
+                .logo_perfil {
+                    background-image: url("./assets/usuario.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .titulo_informacion {
+                    //estilos del titulo del video
+                    .titulo_video {
+                        font-weight: 500;
+                        font-size: 1.4rem;
+                        max-height: 2.5em;
+                        line-height: 1.25;
+                        text-overflow: ellipsis;
+                        color: white;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                    .main_container__miniatura_info {
+                        //estilos de la clase general info
+                        .info {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 1rem;
+                            color: #a0a0a0;
+                        }
+                        //el puntito separador que va entre
+                        //cada punto de info
+                        .punto_separador {
+                            border-radius: 1.5px;
+                            background-color: #a0a0a0;
+                        }
+                    }
+                }
+            }
+            //el logo de 3 puntos verticales de la miniatura
+            .logo_menu {
+                background-image: url("./assets/menu.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+}
+//----------NAV----------
+//el color de fondo del nav inferior
+.navegador_container {
+    background-color: #040404;
+}

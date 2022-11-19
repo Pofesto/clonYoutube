@@ -1,20 +1,26 @@
+//Abarcamiento del header en la página, en este caso
+//un 100 del ancho, y solo 8.25 unidades del alto
 .header_container {
     width: 100vw;
     height: 8.25vh;
-    background-color: #0f0f0f;
 }
+//Abarcamiento de la sección de categorias en la página
+//en este caso un 100 de la pantalla, y solo 8.25 unidades
+//del alto
 .categorias_container {
     width: 100vw;
     height: 8.25vh;
-    background-color: #0f0f0f;
 }
+//abarcamiento del main en donde van las miniaturas en la
+//página, en este caso un 100 del ancho, y 75 unidades del
+//alto
 .main_container {
     width: 100vw;
     height: 75vh;
-    background-color: #0f0f0f;
 }
+//abarcamiento del nav inferior en la página, en este caso un
+//100 del ancho, y 8.25 unidades de alto.
 .navegador_container {
     width: 100vw;
     height: 8.5vh;
-    background-color: #040404;
 }

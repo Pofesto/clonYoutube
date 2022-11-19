@@ -11,22 +11,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--Cabecera donde va el logo de Youtube a la izquierda, 
+    y a la derecha la lupa, y el logo del perfil.-->
+    <!--container para poder manipular los elementos dentro
+    de la cabecera-->
     <header class="header_container">
-        <div class="header_container__logo">
-
-        </div>
+        <!--Logo de YouTube-->
+        <div class="header_container__logo"></div>
+        <!--Grupo con la lupa y el logo, los hice así para
+        que se mantuvieran juntos sin importar el ancho de
+        pantalla (practica que se repite varias veces)-->
         <div class="header_container__busquedaYperfil">
+            <!--Lupa-->
             <span class="header_container__busqueda"></span>
+            <!--Foto de perfil-->
             <div class="header_container__perfil"></div>
         </div>
     </header>
+    <!--Sección de las categorías, con una categoría llamada
+    "explorar" que tiene una lupa en toda la izquierda, y
+    demás categorías en este misma barra.-->
+    <!--Container para poder manipular los elementos dentro
+    de la sección de categorias.-->
     <section class="categorias_container">
+        <!--El primer botón con la clase genera de botones,
+        está misma clase se va usar varias veces-->
         <button class="categorias_container__boton">
+            <!--brujula del botón-->
             <span class="categorias_container__boton_brujula"></span>
             Explorar
         </button>
+        <!--Separador vertical que separa el botón explorar de
+        las otras categorias-->
         <hr class="categorias_container__separador">
+        <!--Container para las demás categorias-->
         <div class="categorias_container__botones_separados">
+            <!--Categorias con una clase general-->
             <button class="categorias_container__boton">Todo</button>
             <button class="categorias_container__boton">Videojuegos</button>
             <button class="categorias_container__boton">Mixes</button>
@@ -45,28 +65,56 @@
             <button class="categorias_container__boton">SPA vs MPA</button>
         </div>
     </section>
+    <!--el main de la página, en donde vemos las miniaturas
+    de los videos-->
+    <!--Container para poder manipular todas las miniaturas-->
     <main class="main_container">
+        <!--contenedor con todos los elementos de la miniatura
+        -->
         <article class="main_container__miniatura">
+            <!--Imagen de la miniatura-->
             <div class="main_container__miniatura_imagen">
                 <img src="./assets/miniaturas/miniatura_blog.jpg" alt="">
+                <!--En este caso decidi agrupar también el 
+                tiempo junto con la imagen, ya que normalmente
+                el tiempo aparece encima de esta-->
                 <span class="minutos">12:03</span>
             </div>
+            <!--La parte escrita de la miniatura-->
             <div class="main_container__miniatura_titulo">
+                <!--Container con el texto, y el logo, esto
+                lo hice así, ya que tanto el texto, la imagen
+                y los 3 puntos de las opciones se separaban
+                por igual cuando la miniatura crecía, y yo
+                necesitaba que la foto de perfil, y el titulo
+                se quedaran juntos-->
                 <div class="logo_titulo">
+                    <!--Foto de perfil-->
                     <span class="logo_perfil"></span>
+                    <!--Container con la información, y el titulo. Esto lo
+                    hice así para poder centrar verticalmente la imagen de
+                    perfil con la parte escrita de la miniatura-->
                     <div class="titulo_informacion">
+                        <!--Titulo del video-->
                         <h3 class="titulo_video">
                             Titulo de ejemplo
                         </h3>
+                        <!--información del video-->
                         <div class="main_container__miniatura_info">
+                            <!--Clase general, pero en este caso es el nombre
+                            del canal-->
                             <p class="info">
                                 Nombre de ejemplo
                             </p>
+                            <!--Punto separador que separa cada punto de 
+                            información del video-->
                             <span class="punto_separador"></span>
+                            <!--Visualizaciones-->
                             <p class="info">
                                 123.456 de visualizaciones
                             </p>
                             <span class="punto_separador"></span>
+                            <!--Fecha de subida-->
                             <p class="info">hace 1 día</p>
                         </div>
                     </div>
@@ -395,7 +443,9 @@
 
         </article>
     </main>
+    <!--Nav de la parte inferior con 3 botones-->
     <nav class="navegador_container">
+        <!--Imagen de cada uno de los botones-->
         <img src="./assets/inicio.png" alt="">
         <img src="./assets/shorts.png" alt="">
         <img src="./assets/suscripciones.png" alt="">

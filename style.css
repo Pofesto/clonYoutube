@@ -16,11 +16,7 @@ body {
   align-items: center; }
   .header_container .header_container__logo {
     width: 95px;
-    height: 38px;
-    background-image: url("./assets/logo_youtube.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; }
+    height: 38px; }
   .header_container .header_container__busquedaYperfil {
     width: 80px;
     height: 40px;
@@ -31,24 +27,13 @@ body {
     .header_container .header_container__busquedaYperfil .header_container__busqueda {
       display: inline-block;
       width: 24px;
-      height: 24px;
-      background-image: url("./assets/lupa.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain; }
+      height: 24px; }
     .header_container .header_container__busquedaYperfil .header_container__perfil {
       display: inline-block;
       width: 24px;
-      height: 24px;
-      background-image: url("./assets/perfil.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      border-radius: 14px; }
+      height: 24px; }
 
 .categorias_container {
-  border-top: 0.1px solid gray;
-  border-bottom: 0.1px solid gray;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,18 +50,11 @@ body {
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     border: none;
-    background-color: #272727;
-    color: white;
     margin-right: 10px; }
     .categorias_container .categorias_container__boton .categorias_container__boton_brujula {
       display: inline-block;
       width: 20px;
-      height: 20px;
-      background-image: url("./assets/brujula.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      vertical-align: middle; }
+      height: 20px; }
 
 .categorias_container::-webkit-scrollbar {
   height: 0px; }
@@ -106,14 +84,9 @@ body {
         width: auto;
         height: auto;
         padding: 2px;
-        background-color: rgba(0, 0, 0, 0.7);
         position: absolute;
         right: 4px;
-        bottom: 8px;
-        font-size: 1.1rem;
-        color: white;
-        font-weight: 500;
-        border-radius: 4px; }
+        bottom: 8px; }
     .main_container .main_container__miniatura .main_container__miniatura_titulo {
       margin-top: 4px;
       display: flex;
@@ -127,48 +100,28 @@ body {
           display: inline-block;
           width: 40px;
           height: 40px;
-          background-image: url("./assets/usuario.png");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: contain;
           margin-right: 10px;
           margin-left: 5px; }
         .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .titulo_video {
-          font-weight: 500;
-          font-size: 1.4rem;
           display: -webkit-box;
           -webkit-box-orient: vertical;
-          max-height: 2.5em;
           -webkit-line-clamp: 2;
-          overflow: hidden;
-          line-height: 1.25;
-          text-overflow: ellipsis;
-          color: white;
-          font-family: 'Roboto', sans-serif; }
+          overflow: hidden; }
         .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .main_container__miniatura_info {
           display: flex;
           align-items: center;
           flex-wrap: wrap; }
           .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .main_container__miniatura_info .info {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1rem;
-            color: #a0a0a0;
             margin-right: 4px; }
           .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .main_container__miniatura_info .punto_separador {
             display: inline-block;
             width: 3px;
             height: 3px;
-            border-radius: 1.5px;
-            background-color: #a0a0a0;
             margin-right: 4px;
             vertical-align: middle; }
       .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_menu {
         width: 24px;
-        height: 24px;
-        background-image: url("./assets/menu.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain; }
+        height: 24px; }
 
 .main_container::-webkit-scrollbar {
   height: 0;
@@ -182,24 +135,89 @@ body {
     height: 100%; }
 
 .header_container {
-  width: 100vw;
-  height: 8.25vh;
   background-color: #0f0f0f; }
+  .header_container .header_container__logo {
+    background-image: url("./assets/logo_youtube.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .header_container .header_container__busquedaYperfil .header_container__busqueda {
+    background-image: url("./assets/lupa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .header_container .header_container__busquedaYperfil .header_container__perfil {
+    background-image: url("./assets/perfil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 14px; }
+
+.categorias_container {
+  background-color: #0f0f0f;
+  border-top: 0.1px solid gray;
+  border-bottom: 0.1px solid gray; }
+  .categorias_container .categorias_container__boton {
+    background-color: #272727;
+    color: white; }
+    .categorias_container .categorias_container__boton .categorias_container__boton_brujula {
+      background-image: url("./assets/brujula.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+
+.main_container {
+  background-color: #0f0f0f; }
+  .main_container .main_container__miniatura .main_container__miniatura_imagen .minutos {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px; }
+  .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .logo_perfil {
+    background-image: url("./assets/usuario.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .titulo_video {
+    font-weight: 500;
+    font-size: 1.4rem;
+    max-height: 2.5em;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    color: white;
+    font-family: 'Roboto', sans-serif; }
+  .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .main_container__miniatura_info .info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #a0a0a0; }
+  .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_titulo .titulo_informacion .main_container__miniatura_info .punto_separador {
+    border-radius: 1.5px;
+    background-color: #a0a0a0; }
+  .main_container .main_container__miniatura .main_container__miniatura_titulo .logo_menu {
+    background-image: url("./assets/menu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.navegador_container {
+  background-color: #040404; }
+
+.header_container {
+  width: 100vw;
+  height: 8.25vh; }
 
 .categorias_container {
   width: 100vw;
-  height: 8.25vh;
-  background-color: #0f0f0f; }
+  height: 8.25vh; }
 
 .main_container {
   width: 100vw;
-  height: 75vh;
-  background-color: #0f0f0f; }
+  height: 75vh; }
 
 .navegador_container {
   width: 100vw;
-  height: 8.5vh;
-  background-color: #040404; }
+  height: 8.5vh; }
 
 @media (min-width: 587px) {
   .main_container .main_container__miniatura {
