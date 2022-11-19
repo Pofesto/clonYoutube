@@ -1,0 +1,23 @@
+@media (min-width: 587px) {
+    .main_container {
+        .main_container__miniatura {
+            width: 48%;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+}
+@media (min-width: 874px) {
+    .main_container {
+        .main_container__miniatura {
+            width: 32%;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .main_container {
+        .main_container__miniatura {
+            width: 24%;
+        }
+    }
+}
